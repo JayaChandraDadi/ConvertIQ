@@ -1,0 +1,57 @@
+{
+  "per_day_nce": [
+    {
+      "day": 7,
+      "frozen": 0.9489,
+      "warm_start": 0.9489,
+      "full_retrain": 0.9491
+    },
+    {
+      "day": 8,
+      "frozen": 0.9365,
+      "warm_start": 0.9342,
+      "full_retrain": 0.9351
+    },
+    {
+      "day": 9,
+      "frozen": 0.945,
+      "warm_start": 0.9424,
+      "full_retrain": 0.9439
+    },
+    {
+      "day": 10,
+      "frozen": 0.9354,
+      "warm_start": 0.9321,
+      "full_retrain": 0.932
+    },
+    {
+      "day": 11,
+      "frozen": 0.9333,
+      "warm_start": 0.925,
+      "full_retrain": 0.9269
+    },
+    {
+      "day": 12,
+      "frozen": 0.9337,
+      "warm_start": 0.9256,
+      "full_retrain": 0.9278
+    },
+    {
+      "day": 13,
+      "frozen": 0.9314,
+      "warm_start": 0.9241,
+      "full_retrain": 0.9252
+    }
+  ],
+  "mean_nce": {
+    "frozen": 0.9377,
+    "warm_start": 0.9332,
+    "full_retrain": 0.9343
+  },
+  "train_seconds": {
+    "warm_start": 7.7,
+    "full_retrain": 75.7
+  },
+  "note": "full_retrain is retrained from scratch on all prior days before each scored day",
+  "seconds": 100.7
+}

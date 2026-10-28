@@ -1,0 +1,108 @@
+{
+  "single_task_dcn": {
+    "ctr": {
+      "auc": 0.7106,
+      "nce": 0.9283,
+      "logloss": 0.17587,
+      "calibration_ratio": 1.0594,
+      "ece": 0.00341,
+      "positives": 5635,
+      "rows": 120000
+    },
+    "ctcvr": {
+      "auc": 0.7167,
+      "nce": 1.0787,
+      "logloss": 0.04248,
+      "calibration_ratio": 2.8077,
+      "ece": 0.01181,
+      "positives": 784,
+      "rows": 120000
+    },
+    "cvr_auc_on_clicks": 0.559
+  },
+  "shared_esmm": {
+    "ctr": {
+      "auc": 0.7124,
+      "nce": 0.9267,
+      "logloss": 0.17557,
+      "calibration_ratio": 0.9871,
+      "ece": 0.00235,
+      "positives": 5635,
+      "rows": 120000
+    },
+    "ctcvr": {
+      "auc": 0.7374,
+      "nce": 0.9388,
+      "logloss": 0.03697,
+      "calibration_ratio": 1.1027,
+      "ece": 0.00144,
+      "positives": 784,
+      "rows": 120000
+    },
+    "cvr_auc_on_clicks": 0.5517
+  },
+  "mmoe_esmm": {
+    "ctr": {
+      "auc": 0.7125,
+      "nce": 0.9271,
+      "logloss": 0.17566,
+      "calibration_ratio": 0.9862,
+      "ece": 0.00291,
+      "positives": 5635,
+      "rows": 120000
+    },
+    "ctcvr": {
+      "auc": 0.7384,
+      "nce": 0.937,
+      "logloss": 0.0369,
+      "calibration_ratio": 1.0681,
+      "ece": 0.00127,
+      "positives": 784,
+      "rows": 120000
+    },
+    "cvr_auc_on_clicks": 0.562
+  },
+  "mmoe_gate_weights": {
+    "ctr_task": [
+      0.1809999942779541,
+      0.2529999911785126,
+      0.2630000114440918,
+      0.30300000309944153
+    ],
+    "cvr_task": [
+      0.31299999356269836,
+      0.23899999260902405,
+      0.27000001072883606,
+      0.17800000309944153
+    ]
+  },
+  "mmoe_direct_ctcvr": {
+    "ctr": {
+      "auc": 0.7134,
+      "nce": 0.9269,
+      "logloss": 0.1756,
+      "calibration_ratio": 1.0259,
+      "ece": 0.00357,
+      "positives": 5635,
+      "rows": 120000
+    },
+    "ctcvr": {
+      "auc": 0.7588,
+      "nce": 0.9232,
+      "logloss": 0.03635,
+      "calibration_ratio": 0.9334,
+      "ece": 0.00053,
+      "positives": 784,
+      "rows": 120000
+    },
+    "cvr_auc_on_clicks": 0.6622
+  },
+  "train_rows": 600000,
+  "test_rows": 120000,
+  "train_seconds": {
+    "single": 14.4,
+    "shared_esmm": 12.9,
+    "mmoe_esmm": 28.3
+  },
+  "seconds": 85.8
+}

@@ -1,0 +1,63 @@
+{
+  "raw (trained on 10% of negatives)": {
+    "auc": 0.7003,
+    "nce": 2.6313,
+    "logloss": 0.49852,
+    "calibration_ratio": 8.1053,
+    "ece": 0.33365,
+    "positives": 5635,
+    "rows": 120000
+  },
+  "analytic downsampling correction": {
+    "auc": 0.7003,
+    "nce": 0.9816,
+    "logloss": 0.18598,
+    "calibration_ratio": 1.2422,
+    "ece": 0.02429,
+    "positives": 5635,
+    "rows": 120000
+  },
+  "platt (fit on val window)": {
+    "auc": 0.7003,
+    "nce": 0.9364,
+    "logloss": 0.1774,
+    "calibration_ratio": 1.002,
+    "ece": 0.00241,
+    "positives": 5635,
+    "rows": 120000
+  },
+  "isotonic (fit on val window)": {
+    "auc": 0.6997,
+    "nce": 0.938,
+    "logloss": 0.17771,
+    "calibration_ratio": 1.0037,
+    "ece": 0.0015,
+    "positives": 5635,
+    "rows": 120000
+  },
+  "per_segment_calibration_ratio": {
+    "raw (trained on 10% of negatives)": {
+      "1": 8.228,
+      "2": 7.952,
+      "3": 8.141
+    },
+    "analytic downsampling correction": {
+      "1": 1.261,
+      "2": 1.219,
+      "3": 1.247
+    },
+    "platt (fit on val window)": {
+      "1": 1.018,
+      "2": 0.984,
+      "3": 1.004
+    },
+    "isotonic (fit on val window)": {
+      "1": 1.02,
+      "2": 0.986,
+      "3": 1.005
+    }
+  },
+  "kept_training_rows": 82801,
+  "full_training_rows": 600000,
+  "seconds": 3.8
+}

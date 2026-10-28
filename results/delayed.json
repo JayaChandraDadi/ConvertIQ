@@ -1,0 +1,49 @@
+{
+  "missing_label_share_at_T": 0.11,
+  "oracle_final_labels": {
+    "auc": 0.7576,
+    "nce": 0.9234,
+    "logloss": 0.03504,
+    "calibration_ratio": 1.0739,
+    "ece": 0.00122,
+    "positives": 375,
+    "rows": 60000
+  },
+  "naive_observed_labels": {
+    "auc": 0.7571,
+    "nce": 0.9246,
+    "logloss": 0.03509,
+    "calibration_ratio": 0.9021,
+    "ece": 0.0008,
+    "positives": 375,
+    "rows": 60000
+  },
+  "wait_24h": {
+    "auc": 0.7591,
+    "nce": 0.9244,
+    "logloss": 0.03508,
+    "calibration_ratio": 0.9038,
+    "ece": 0.0007,
+    "positives": 375,
+    "rows": 60000
+  },
+  "wait_72h": {
+    "auc": 0.7493,
+    "nce": 0.9341,
+    "logloss": 0.03545,
+    "calibration_ratio": 0.8964,
+    "ece": 0.00091,
+    "positives": 375,
+    "rows": 60000
+  },
+  "fake_negative_weighted": {
+    "auc": 0.7561,
+    "nce": 0.9235,
+    "logloss": 0.03505,
+    "calibration_ratio": 1.0491,
+    "ece": 0.00101,
+    "positives": 375,
+    "rows": 60000
+  },
+  "seconds": 68.6
+}
